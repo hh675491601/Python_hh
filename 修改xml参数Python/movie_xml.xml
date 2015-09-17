@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <country name="Liechtenstein烈啊擦擦">
+        <rank>1</rank>
+        <year>2008</year>
+        <gdppc>141100</gdppc>
+        <neighbor name="Austria爱戴厉害吧" direction="E"/>
+        <neighbor name="Switzerland瑞兹" direction="W"/>
+    </country>
+    <country name="Singapore新疆">
+        <rank>4</rank>
+        <year>2011</year>
+        <gdppc>59900</gdppc>
+        <neighbor name="Malaysia麻辣" direction="N"/>
+    </country>
+    <country name="Panama潘达">
+        <rank>68</rank>
+        <year>2011</year>
+        <gdppc>13600</gdppc>
+        <neighbor name="Costa Rica科斯塔 库塔" direction="W"/>
+        <neighbor name="Colombia隔了币" direction="E"/>
+    </country>
+</data>

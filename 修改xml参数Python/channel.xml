@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 平台初始化配置文件 每一个渠道对应一个chennel节点 -->
+<channellist>
+    <channel chname="matrix" version="1.0" ch_zn_name="kf">
+        <!-- 渠道名称                          由渠道提供-->
+        <CHName>matrix</CHName>
+        <!-- 渠道版本号                        由渠道提供-->
+        <CHVersion>1.0</CHVersion>
+        <!-- 渠道分配appid                     由渠道提供-->
+        <CHAppID></CHAppID>
+        <!-- 渠道分配appKey                    由渠道提供-->
+        <CHAppKey></CHAppKey>
+        <!-- 快发分配的 Gamekey                     由渠道提供-->
+        <CHGameKey>bb0c40dab24ead621c0ad769ca7af411</CHGameKey>
+        <!-- 渠道 GameChannel                 由渠道提供-->
+        <CHGameChannel>matrix</CHGameChannel>
+        <!-- 给平台预留的私有key 比如:cukey      由渠道提供 -->
+        <CHPrivateKey></CHPrivateKey>
+        <!-- 渠道分配的区服ID                   由渠道提供-->
+        <CHServerNumber>1</CHServerNumber>
+        <!-- 渠道扩展参数ID，无特殊需求不填，如快用支付需要的game值-->
+        <CHExtendID></CHExtendID>
+        
+        <!-- 是否自动登录 1是 0否 -->
+        <CPAutoLogin>1</CPAutoLogin>
+        <!-- 是否强制更新 1是 0否 -->
+        <CPForceUpdate>1</CPForceUpdate>
+        <!-- 是显示悬浮助手 1是 0否 -->
+        <CPShowPopover>1</CPShowPopover>
+        <!-- 悬浮助手位置 0渠道默认 1中左 2中右 3做上 4左下 5左下 6右下 -->
+        <CPPopoverPosiation>3</CPPopoverPosiation>
+        <!-- 游戏支持的屏幕方向 1竖屏 2倒屏 4横屏左边 8横屏右边 如果支持多种屏请做加法比如支持竖屏和横屏左则是5(1+4) 如果支持所有方向则是15-->
+        <CPScreenOrientation>4</CPScreenOrientation>
+        <!-- 是否调试模式 1.调试模式(debug)  0.发布模式:(release)  -->
+        <DEV_ISDebugModel>0</DEV_ISDebugModel>
+        <!-- 商品信息 -->
+        <DATA_Product></DATA_Product>
+        <!-- 商户ID -->
+        <PAY_MerchantId></PAY_MerchantId>
+        <!-- 支付回调地址 -->
+        <PAY_NotifiyURL></PAY_NotifiyURL>
+        <!-- 商户私有信息 -->
+        <PAY_SellerPrivateInfo>商户私有信息</PAY_SellerPrivateInfo>
+        <!--阿里支付url type -->
+        <AlipayURLName>com.ios.zlzr.matrix</AlipayURLName>
+        <AlipayScheme>LDPAY-com.ios.zlzr.matrix</AlipayScheme>
+        <!--QQ钱包url type -->
+        <qqPayURLName>com.ios.zlzr.matrix</qqPayURLName>
+        <qqPayScheme>com.ios.zlzr.matrix</qqPayScheme>
+        <!--最后出包的bundleid 不同渠道有不同要求 -->
+        <BundleID>com.ios.zlzr.matrix</BundleID>
+        <!--最后出包的bundleVersion 用于配置CFBundleVersion -->
+        <BundleVersion>1.5.0</BundleVersion>
+        <!-- 最出包的名称 -->
+        <BundleDisplayName>斩龙之刃</BundleDisplayName>
+        <!--是否需要设置icon -->
+        <ICON_NEED_SETTING>1</ICON_NEED_SETTING>
+        <!-- 1:右上 2：右下 3:左上 4:左下  -->
+        <ICON_location>2</ICON_location>
+        <!-- 是否需要设置langch  -->
+        <LAUNCH_NEED_SETTING>1</LAUNCH_NEED_SETTING>
+        <!-- 1:竖屏(Portrait) 2横屏左(Landscate Left) 3横屏右边(Landscape Right)  -->
+        <LAUNCH_location>1</LAUNCH_location>
+    </channel>
+
+        <channel chname="leba" version="1.0.4" ch_zn_name="乐8">
+        <!-- 渠道名称                          由渠道提供-->
+        <CHName>leba</CHName>
+        <!-- 渠道版本号                        由渠道提供-->
+        <CHVersion>1.0.4</CHVersion>
+        <!-- 渠道分配appid                     由渠道提供-->
+        <CHAppID>7d816fd57a44cbe0746165b7044edd27</CHAppID>
+        <!-- 渠道分配appKey                    由渠道提供-->
+        <CHAppKey>7215aaed2d59b7fdce994d7ffabf1c0c</CHAppKey>
+        <!-- 快发分配的 Gamekey                     由渠道提供-->
+        <CHGameKey>bb0c40dab24ead621c0ad769ca7af411</CHGameKey>
+        <!-- 渠道 GameChannel                 由渠道提供-->
+        <CHGameChannel>leba</CHGameChannel>
+        <!-- 给平台预留的私有key 比如:cukey      由渠道提供 -->
+        <CHPrivateKey></CHPrivateKey>
+        <!-- 渠道分配的区服ID                   由渠道提供-->
+        <CHServerNumber>1</CHServerNumber>
+        <!-- 渠道扩展参数ID，无特殊需求不填，如快用支付需要的game值-->
+        <CHExtendID></CHExtendID>
+        
+        <!-- 是否自动登录 1是 0否 -->
+        <CPAutoLogin>1</CPAutoLogin>
+        <!-- 是否强制更新 1是 0否 -->
+        <CPForceUpdate>1</CPForceUpdate>
+        <!-- 是显示悬浮助手 1是 0否 -->
+        <CPShowPopover>1</CPShowPopover>
+        <!-- 悬浮助手位置 0渠道默认 1中左 2中右 3做上 4左下 5左下 6右下 -->
+        <CPPopoverPosiation>3</CPPopoverPosiation>
+        <!-- 游戏支持的屏幕方向 1竖屏 2倒屏 4横屏左边 8横屏右边 如果支持多种屏请做加法比如支持竖屏和横屏左则是5(1+4) 如果支持所有方向则是15-->
+        <CPScreenOrientation>4</CPScreenOrientation>
+        <!-- 是否调试模式 1.调试模式(debug)  0.发布模式:(release)  -->
+        <DEV_ISDebugModel>0</DEV_ISDebugModel>
+        <!-- 商品信息 -->
+        <DATA_Product></DATA_Product>
+        <!-- 商户ID -->
+        <PAY_MerchantId></PAY_MerchantId>
+        <!-- 支付回调地址 -->
+        <PAY_NotifiyURL></PAY_NotifiyURL>
+        <!-- 商户私有信息 -->
+        <PAY_SellerPrivateInfo>商户私有信息</PAY_SellerPrivateInfo>
+        <!--阿里支付url type -->
+        <AlipayURLName>com.ios.zlzr.le8</AlipayURLName>
+        <AlipayScheme>LDPAY-com.ios.zlzr.le8</AlipayScheme>
+        <!--QQ钱包url type -->
+        <qqPayURLName>com.ios.zlzr.le8</qqPayURLName>
+        <qqPayScheme>com.ios.zlzr.le8</qqPayScheme>
+        <!--最后出包的bundleid 不同渠道有不同要求 -->
+        <BundleID>com.ios.zlzr.le8</BundleID>
+        <!--最后出包的bundleVersion 用于配置CFBundleVersion -->
+        <BundleVersion>1.5.0</BundleVersion>
+        <!-- 最出包的名称 -->
+        <BundleDisplayName>斩龙之刃</BundleDisplayName>
+        <!--是否需要设置icon -->
+        <ICON_NEED_SETTING>1</ICON_NEED_SETTING>
+        <!-- 1:右上 2：右下 3:左上 4:左下  -->
+        <ICON_location>2</ICON_location>
+        <!-- 是否需要设置langch  -->
+        <LAUNCH_NEED_SETTING>1</LAUNCH_NEED_SETTING>
+        <!-- 1:竖屏(Portrait) 2横屏左(Landscate Left) 3横屏右边(Landscape Right)  -->
+        <LAUNCH_location>1</LAUNCH_location>
+    </channel>
+    
+    <channel chname="bdapp" version="3.5.2" ch_zn_name="百度游戏">
+        <!-- 渠道名称                          由渠道提供-->
+        <CHName>bdapp</CHName>
+        <!-- 渠道版本号                        由渠道提供-->
+        <CHVersion>3.5.2</CHVersion>
+        <!-- 渠道分配appid                     由渠道提供-->
+        <CHAppID>6477131</CHAppID>
+        <!-- 渠道分配appKey                    由渠道提供-->
+        <CHAppKey>kGrzQNLGLRfwCCK4P6zsMbua</CHAppKey>
+        <!-- 快发分配的 Gamekey                     由渠道提供-->
+        <CHGameKey>bb0c40dab24ead621c0ad769ca7af411</CHGameKey>
+        <!-- 渠道 GameChannel                 由渠道提供-->
+        <CHGameChannel>bdapp</CHGameChannel>
+        <!-- 给平台预留的私有key 比如:cukey      由渠道提供 -->
+        <CHPrivateKey>zS4xqwGdtE0OKXMdyVGK4tU1iYpy3EVh</CHPrivateKey>
+        <!-- 渠道分配的区服ID                   由渠道提供-->
+        <CHServerNumber>1</CHServerNumber>
+        <!-- 渠道扩展参数ID，无特殊需求不填，如快用支付需要的game值-->
+        <CHExtendID></CHExtendID>
+        
+        <!-- 是否自动登录 1是 0否 -->
+        <CPAutoLogin>1</CPAutoLogin>
+        <!-- 是否强制更新 1是 0否 -->
+        <CPForceUpdate>1</CPForceUpdate>
+        <!-- 是显示悬浮助手 1是 0否 -->
+        <CPShowPopover>1</CPShowPopover>
+        <!-- 悬浮助手位置 0渠道默认 1中左 2中右 3做上 4左下 5左下 6右下 -->
+        <CPPopoverPosiation>3</CPPopoverPosiation>
+        <!-- 游戏支持的屏幕方向 1竖屏 2倒屏 4横屏左边 8横屏右边 如果支持多种屏请做加法比如支持竖屏和横屏左则是5(1+4) 如果支持所有方向则是15-->
+        <CPScreenOrientation>4</CPScreenOrientation>
+        <!-- 是否调试模式 1.调试模式(debug)  0.发布模式:(release)  -->
+        <DEV_ISDebugModel>0</DEV_ISDebugModel>
+        <!-- 商品信息 -->
+        <DATA_Product></DATA_Product>
+        <!-- 商户ID -->
+        <PAY_MerchantId></PAY_MerchantId>
+        <!-- 支付回调地址 -->
+        <PAY_NotifiyURL></PAY_NotifiyURL>
+        <!-- 商户私有信息 -->
+        <PAY_SellerPrivateInfo>商户私有信息</PAY_SellerPrivateInfo>
+        <!--阿里支付url type -->
+        <AlipayURLName>BDM-com.ios.zlzr.baidu</AlipayURLName>
+        <AlipayScheme>BDM-com.ios.zlzr.baidu</AlipayScheme>
+        <!--QQ钱包url type -->
+        <qqPayURLName>BDM-com.ios.zlzr.baidu</qqPayURLName>
+        <qqPayScheme>BDM-com.ios.zlzr.baidu</qqPayScheme>
+        <!--最后出包的bundleid 不同渠道有不同要求 -->
+        <BundleID>com.ios.zlzr.baidu</BundleID>
+        <!--最后出包的bundleVersion 用于配置CFBundleVersion -->
+        <BundleVersion>1.5.0</BundleVersion>
+        <!-- 最出包的名称 -->
+        <BundleDisplayName>斩龙之刃</BundleDisplayName>
+        <!--是否需要设置icon -->
+        <ICON_NEED_SETTING>1</ICON_NEED_SETTING>
+        <!-- 1:右上 2：右下 3:左上 4:左下  -->
+        <ICON_location>2</ICON_location>
+        <!-- 是否需要设置langch  -->
+        <LAUNCH_NEED_SETTING>1</LAUNCH_NEED_SETTING>
+        <!-- 1:竖屏(Portrait) 2横屏左(Landscate Left) 3横屏右边(Landscape Right)  -->
+        <LAUNCH_location>1</LAUNCH_location>
+    </channel>
+    
+    <channel chname="seahorse" version="2.3.2" ch_zn_name="海马支付">
+        <!-- 渠道名称                          由渠道提供-->
+        <CHName>seahorse</CHName>
+        <!-- 渠道版本号                        由渠道提供-->
+        <CHVersion>2.3.2</CHVersion>
+        <!-- 渠道分配appid                     由渠道提供-->
+        <CHAppID>8d2bfcd9213cfef3d9e9689c15df7d08</CHAppID>
+        <!-- 渠道分配appKey                    由渠道提供-->
+        <CHAppKey>7aed6a661e1c6df056700fc1ca758631</CHAppKey>
+        <!-- 快发分配的 Gamekey                     由渠道提供-->
+        <CHGameKey>bb0c40dab24ead621c0ad769ca7af411</CHGameKey>
+        <!-- 渠道 GameChannel                 由渠道提供-->
+        <CHGameChannel>seahorse</CHGameChannel>
+        <!-- 给平台预留的私有key 比如:cukey      由渠道提供 -->
+        <CHPrivateKey></CHPrivateKey>
+        <!-- 渠道分配的区服ID                   由渠道提供-->
+        <CHServerNumber>1</CHServerNumber>
+        <!-- 渠道扩展参数ID，无特殊需求不填，如快用支付需要的game值-->
+        <CHExtendID></CHExtendID>
+        
+        <!-- 是否自动登录 1是 0否 -->
+        <CPAutoLogin>1</CPAutoLogin>
+        <!-- 是否强制更新 1是 0否 -->
+        <CPForceUpdate>1</CPForceUpdate>
+        <!-- 是显示悬浮助手 1是 0否 -->
+        <CPShowPopover>1</CPShowPopover>
+        <!-- 悬浮助手位置 0渠道默认 1中左 2中右 3做上 4左下 5左下 6右下 -->
+        <CPPopoverPosiation>3</CPPopoverPosiation>
+        <!-- 游戏支持的屏幕方向 1竖屏 2倒屏 4横屏左边 8横屏右边 如果支持多种屏请做加法比如支持竖屏和横屏左则是5(1+4) 如果支持所有方向则是15-->
+        <CPScreenOrientation>4</CPScreenOrientation>
+        <!-- 是否调试模式 1.调试模式(debug)  0.发布模式:(release)  -->
+        <DEV_ISDebugModel>0</DEV_ISDebugModel>
+        <!-- 商品信息 -->
+        <DATA_Product></DATA_Product>
+        <!-- 商户ID -->
+        <PAY_MerchantId></PAY_MerchantId>
+        <!-- 支付回调地址 -->
+        <PAY_NotifiyURL></PAY_NotifiyURL>
+        <!-- 商户私有信息 -->
+        <PAY_SellerPrivateInfo>商户私有信息</PAY_SellerPrivateInfo>
+        <!--阿里支付url type -->
+        <AlipayURLName>com.ios.zlzr.haima</AlipayURLName>
+        <AlipayScheme>ZHPAY-com.ios.zlzr.haima</AlipayScheme>
+        <!--QQ钱包url type -->
+        <qqPayURLName>com.ios.zlzr.haima</qqPayURLName>
+        <qqPayScheme>ZHPAY-com.ios.zlzr.haima</qqPayScheme>
+        <!--最后出包的bundleid 不同渠道有不同要求 -->
+        <BundleID>com.ios.zlzr.haima</BundleID>
+        <!--最后出包的bundleVersion 用于配置CFBundleVersion -->
+        <BundleVersion>1.5.0</BundleVersion>
+        <!-- 最出包的名称 -->
+        <BundleDisplayName>斩龙之刃</BundleDisplayName>
+        <!--是否需要设置icon -->
+        <ICON_NEED_SETTING>1</ICON_NEED_SETTING>
+        <!-- 1:右上 2：右下 3:左上 4:左下  -->
+        <ICON_location>2</ICON_location>
+        <!-- 是否需要设置langch  -->
+        <LAUNCH_NEED_SETTING>1</LAUNCH_NEED_SETTING>
+        <!-- 1:竖屏(Portrait) 2横屏左(Landscate Left) 3横屏右边(Landscape Right)  -->
+        <LAUNCH_location>1</LAUNCH_location>
+    </channel>
+    
+    <channel chname="xyzs" version="2.0.3" ch_zn_name="XY助手">
+        <!-- 渠道名称                          由渠道提供-->
+        <CHName>xyzs</CHName>
+        <!-- 渠道版本号                        由渠道提供-->
+        <CHVersion>2.0.3</CHVersion>
+        <!-- 渠道分配appid                     由渠道提供-->
+        <CHAppID>100020773</CHAppID>
+        <!-- 渠道分配appKey                    由渠道提供-->
+        <CHAppKey>dbhIuKILxoGH6fcDFABRlo0RbTHqCFZs</CHAppKey>
+        <!-- 快发分配的 Gamekey                     由渠道提供-->
+        <CHGameKey>bb0c40dab24ead621c0ad769ca7af411</CHGameKey>
+        <!-- 渠道 GameChannel                 由渠道提供-->
+        <CHGameChannel>xyzs</CHGameChannel>
+        <!-- 给平台预留的私有key 比如:cukey      由渠道提供 -->
+        <CHPrivateKey></CHPrivateKey>
+        <!-- 渠道分配的区服ID                   由渠道提供-->
+        <CHServerNumber>1</CHServerNumber>
+        <!-- 渠道扩展参数ID，无特殊需求不填，如快用支付需要的game值-->
+        <CHExtendID></CHExtendID>
+        
+        <!-- 是否自动登录 1是 0否 -->
+        <CPAutoLogin>1</CPAutoLogin>
+        <!-- 是否强制更新 1是 0否 -->
+        <CPForceUpdate>1</CPForceUpdate>
+        <!-- 是显示悬浮助手 1是 0否 -->
+        <CPShowPopover>1</CPShowPopover>
+        <!-- 悬浮助手位置 0渠道默认 1中左 2中右 3做上 4左下 5左下 6右下 -->
+        <CPPopoverPosiation>3</CPPopoverPosiation>
+        <!-- 游戏支持的屏幕方向 1竖屏 2倒屏 4横屏左边 8横屏右边 如果支持多种屏请做加法比如支持竖屏和横屏左则是5(1+4) 如果支持所有方向则是15-->
+        <CPScreenOrientation>4</CPScreenOrientation>
+        <!-- 是否调试模式 1.调试模式(debug)  0.发布模式:(release)  -->
+        <DEV_ISDebugModel>0</DEV_ISDebugModel>
+        <!-- 商品信息 -->
+        <DATA_Product></DATA_Product>
+        <!-- 商户ID -->
+        <PAY_MerchantId></PAY_MerchantId>
+        <!-- 支付回调地址 -->
+        <PAY_NotifiyURL></PAY_NotifiyURL>
+        <!-- 商户私有信息 -->
+        <PAY_SellerPrivateInfo>商户私有信息</PAY_SellerPrivateInfo>
+        <!--阿里支付url type -->
+        <AlipayURLName>com.ios.zlzr.xy</AlipayURLName>
+        <AlipayScheme>com.ios.zlzr.xy</AlipayScheme>
+        <!--QQ钱包url type -->
+        <qqPayURLName>com.ios.zlzr.xy</qqPayURLName>
+        <qqPayScheme>com.ios.zlzr.xy</qqPayScheme>
+        <!--最后出包的bundleid 不同渠道有不同要求 -->
+        <BundleID>com.ios.zlzr.xy</BundleID>
+        <!--最后出包的bundleVersion 用于配置CFBundleVersion -->
+        <BundleVersion>1.5.0</BundleVersion>
+        <!-- 最出包的名称 -->
+        <BundleDisplayName>斩龙之刃</BundleDisplayName>
+        <!--是否需要设置icon -->
+        <ICON_NEED_SETTING>1</ICON_NEED_SETTING>
+        <!-- 1:右上 2：右下 3:左上 4:左下  -->
+        <ICON_location>2</ICON_location>
+        <!-- 是否需要设置langch  -->
+        <LAUNCH_NEED_SETTING>1</LAUNCH_NEED_SETTING>
+        <!-- 1:竖屏(Portrait) 2横屏左(Landscate Left) 3横屏右边(Landscape Right)  -->
+        <LAUNCH_location>1</LAUNCH_location>
+    </channel>
+    
+    <channel chname="dangios" version="4.1" ch_zn_name="当乐">
+        <!-- 渠道名称                          由渠道提供-->
+        <CHName>dangios</CHName>
+        <!-- 渠道版本号                        由渠道提供-->
+        <CHVersion>4.1</CHVersion>
+        <!-- 渠道分配appid                     由渠道提供-->
+        <CHAppID>3746</CHAppID>
+        <!-- 渠道分配appKey                    由渠道提供-->
+        <CHAppKey>1yCoY6sq</CHAppKey>
+        <!-- 快发分配的 Gamekey                     由渠道提供-->
+        <CHGameKey>bb0c40dab24ead621c0ad769ca7af411</CHGameKey>
+        <!-- 渠道 GameChannel                 由渠道提供-->
+        <CHGameChannel>dangios</CHGameChannel>
+        <!-- 给平台预留的私有key 比如:cukey      由渠道提供 -->
+        <CHPrivateKey>k18bULVOkLxY</CHPrivateKey>
+        <!-- 渠道分配的区服ID                   由渠道提供-->
+        <CHServerNumber>1</CHServerNumber>
+        <!-- 渠道扩展参数ID，无特殊需求不填，如快用支付需要的game值-->
+        <CHExtendID></CHExtendID>
+        
+        <!-- 是否自动登录 1是 0否 -->
+        <CPAutoLogin>1</CPAutoLogin>
+        <!-- 是否强制更新 1是 0否 -->
+        <CPForceUpdate>1</CPForceUpdate>
+        <!-- 是显示悬浮助手 1是 0否 -->
+        <CPShowPopover>1</CPShowPopover>
+        <!-- 悬浮助手位置 0渠道默认 1中左 2中右 3做上 4左下 5左下 6右下 -->
+        <CPPopoverPosiation>3</CPPopoverPosiation>
+        <!-- 游戏支持的屏幕方向 1竖屏 2倒屏 4横屏左边 8横屏右边 如果支持多种屏请做加法比如支持竖屏和横屏左则是5(1+4) 如果支持所有方向则是15-->
+        <CPScreenOrientation>4</CPScreenOrientation>
+        <!-- 是否调试模式 1.调试模式(debug)  0.发布模式:(release)  -->
+        <DEV_ISDebugModel>0</DEV_ISDebugModel>
+        <!-- 商品信息 -->
+        <DATA_Product></DATA_Product>
+        <!-- 商户ID -->
+        <PAY_MerchantId>1190</PAY_MerchantId>
+        <!-- 支付回调地址 -->
+        <PAY_NotifiyURL></PAY_NotifiyURL>
+        <!-- 商户私有信息 -->
+        <PAY_SellerPrivateInfo>商户私有信息</PAY_SellerPrivateInfo>
+        <!--阿里支付url type -->
+        <AlipayURLName>com.ios.zlzr.downjoy</AlipayURLName>
+        <AlipayScheme>com.ios.zlzr.downjoy</AlipayScheme>
+        <!--QQ钱包url type -->
+        <qqPayURLName>com.ios.zlzr.downjoy</qqPayURLName>
+        <qqPayScheme>com.ios.zlzr.downjoy</qqPayScheme>
+        <!--最后出包的bundleid 不同渠道有不同要求 -->
+        <BundleID>com.ios.zlzr.downjoy</BundleID>
+        <!--最后出包的bundleVersion 用于配置CFBundleVersion -->
+        <BundleVersion>1.5.0</BundleVersion>
+        <!-- 最出包的名称 -->
+        <BundleDisplayName>斩龙之刃</BundleDisplayName>
+        <!--是否需要设置icon -->
+        <ICON_NEED_SETTING>1</ICON_NEED_SETTING>
+        <!-- 1:右上 2：右下 3:左上 4:左下  -->
+        <ICON_location>2</ICON_location>
+        <!-- 是否需要设置langch  -->
+        <LAUNCH_NEED_SETTING>1</LAUNCH_NEED_SETTING>
+        <!-- 1:竖屏(Portrait) 2横屏左(Landscate Left) 3横屏右边(Landscape Right)  -->
+        <LAUNCH_location>1</LAUNCH_location>
+    </channel>
+    <channel chname="kuaiyong" version="2.1" ch_zn_name="快用">
+        <!-- 渠道名称                          由渠道提供-->
+        <CHName>kuaiyong</CHName>
+        <!-- 渠道版本号                        由渠道提供-->
+        <CHVersion>2.1</CHVersion>
+        <!-- 渠道分配appid                     由渠道提供-->
+        <CHAppID></CHAppID>
+        <!-- 渠道分配appKey                    由渠道提供-->
+        <CHAppKey>99c3189601e94a85abeae12aab14b179</CHAppKey>
+        <!-- 渠道 Gamekey                     由渠道提供-->
+        <CHGameKey>bb0c40dab24ead621c0ad769ca7af411</CHGameKey>
+        <!-- 渠道 GameChannel                 由渠道提供-->
+        <CHGameChannel></CHGameChannel>
+        <!-- 给平台预留的私有key 比如:cukey      由渠道提供 -->
+        <CHPrivateKey>7d985e98ff8637188308d0d1eff06f8e</CHPrivateKey>
+        <!-- 渠道分配的区服ID                   由渠道提供-->
+        <CHServerNumber></CHServerNumber>
+        <!-- 渠道扩展参数ID，无特殊需求不填，如快用支付需要的game值-->
+        <CHExtendID>100875</CHExtendID>
+        
+        <!-- 是否自动登录 1是 0否 -->
+        <CPAutoLogin>1</CPAutoLogin>
+        <!-- 是否强制更新 1是 0否 -->
+        <CPForceUpdate>1</CPForceUpdate>
+        <!-- 是显示悬浮助手 1是 0否 -->
+        <CPShowPopover>1</CPShowPopover>
+        <!-- 悬浮助手位置 0渠道默认 1中左 2中右 3左上 4左下 5左下 6右下 -->
+        <CPPopoverPosiation>3</CPPopoverPosiation>
+        <!-- 游戏支持的屏幕方向 1竖屏 2倒屏 4横屏左边 8横屏右边 如果支持多种屏请做加法比如支持竖屏和横屏左则是5(1+4) 如果支持所有方向则是15-->
+        <CPScreenOrientation>4</CPScreenOrientation>
+        <!-- 是否调试模式 1.调试模式(debug)  0.发布模式:(release)  -->
+        <DEV_ISDebugModel>0</DEV_ISDebugModel>
+        <!-- 商品信息 -->
+        <DATA_Product></DATA_Product>
+        <!-- 商户ID -->
+        <PAY_MerchantId></PAY_MerchantId>
+        <!-- 支付回调地址 -->
+        <PAY_NotifiyURL></PAY_NotifiyURL>
+        <!-- 商户私有信息 -->
+        <PAY_SellerPrivateInfo>商户私有信息</PAY_SellerPrivateInfo>
+        <!--阿里支付url type -->
+        <AlipayURLName>com.ky.xSDK.alipay</AlipayURLName>
+        <AlipayScheme>com.ios.zlzr.ky</AlipayScheme>
+        <!--QQ钱包url type -->
+        <qqPayURLName>com.ios.zlzr.ky</qqPayURLName>
+        <qqPayScheme>com.ios.zlzr.ky</qqPayScheme>
+        <!--最后出包的bundleid 不同渠道有不同要求 -->
+        <BundleID>com.ios.zlzr.7659</BundleID>
+        <!--最后出包的bundleVersion 用于配置CFBundleVersion -->
+        <BundleVersion>1.5.0</BundleVersion>
+        <!-- 最出包的名称 -->
+        <BundleDisplayName>斩龙之刃</BundleDisplayName>
+        <!--是否需要设置icon -->
+        <ICON_NEED_SETTING>1</ICON_NEED_SETTING>
+        <!-- 1:右上 2：右下 3:左上 4:左下  -->
+        <ICON_location>2</ICON_location>
+        <!-- 是否需要设置langch  -->
+        <LAUNCH_NEED_SETTING>0</LAUNCH_NEED_SETTING>
+        <!-- 1:竖屏(Portrait) 2横屏左(Landscate Left) 3横屏右边(Landscape Right)  -->
+        <LAUNCH_location>1</LAUNCH_location>
+    </channel>
+    <channel chname="iiapple" version="1.0.0" ch_zn_name="爱苹果">
+        <!-- 渠道名称                          由渠道提供-->
+        <CHName>iiapple</CHName>
+        <!-- 渠道版本号                        由渠道提供-->
+        <CHVersion>1.0.0</CHVersion>
+        <!-- 渠道分配appid                     由渠道提供-->
+        <CHAppID></CHAppID>
+        <!-- 渠道分配appKey                    由渠道提供-->
+        <CHAppKey>28bf685c141d71005fed83540f0db1aa</CHAppKey>
+        <!-- 渠道 Gamekey                     由渠道提供-->
+        <CHGameKey>bb0c40dab24ead621c0ad769ca7af411</CHGameKey>
+        <!-- 渠道 GameChannel                 由渠道提供-->
+        <CHGameChannel>iiapple</CHGameChannel>
+        <!-- 给平台预留的私有key 比如:cukey      由渠道提供 -->
+        <CHPrivateKey></CHPrivateKey>
+        <!-- 渠道分配的区服ID                   由渠道提供-->
+        <CHServerNumber>1</CHServerNumber>
+        <!-- 渠道扩展参数ID，无特殊需求不填，如快用支付需要的game值-->
+        <CHExtendID></CHExtendID>
+        
+        <!-- 是否自动登录 1是 0否 -->
+        <CPAutoLogin>1</CPAutoLogin>
+        <!-- 是否强制更新 1是 0否 -->
+        <CPForceUpdate>1</CPForceUpdate>
+        <!-- 是显示悬浮助手 1是 0否 -->
+        <CPShowPopover>1</CPShowPopover>
+        <!-- 悬浮助手位置 0渠道默认 1中左 2中右 3左上 4左下 5左下 6右下 -->
+        <CPPopoverPosiation>3</CPPopoverPosiation>
+        <!-- 游戏支持的屏幕方向 1竖屏 2倒屏 4横屏左边 8横屏右边 如果支持多种屏请做加法比如支持竖屏和横屏左则是5(1+4) 如果支持所有方向则是15-->
+        <CPScreenOrientation>4</CPScreenOrientation>
+        <!-- 是否调试模式 1.调试模式(debug)  0.发布模式:(release)  -->
+        <DEV_ISDebugModel>0</DEV_ISDebugModel>
+        <!-- 商品信息 -->
+        <DATA_Product></DATA_Product>
+        <!-- 商户ID -->
+        <PAY_MerchantId></PAY_MerchantId>
+        <!-- 支付回调地址 -->
+        <PAY_NotifiyURL></PAY_NotifiyURL>
+        <!-- 商户私有信息 -->
+        <PAY_SellerPrivateInfo>商户私有信息</PAY_SellerPrivateInfo>
+        <!--阿里支付url type -->
+        <AlipayURLName>com.ios.zlzr.iiapple</AlipayURLName>
+        <AlipayScheme>com.ios.zlzr.iiapple</AlipayScheme>
+        <!--QQ钱包url type -->
+        <qqPayURLName>com.ios.zlzr.iiapple</qqPayURLName>
+        <qqPayScheme>com.ios.zlzr.iiapple</qqPayScheme>
+        <!--最后出包的bundleid 不同渠道有不同要求 -->
+        <BundleID>com.ios.zlzr.iiapple</BundleID>
+        <!--最后出包的bundleVersion 用于配置CFBundleVersion -->
+        <BundleVersion>1.5.0</BundleVersion>
+        <!-- 最出包的名称 -->
+        <BundleDisplayName>斩龙之刃</BundleDisplayName>
+        <!--是否需要设置icon -->
+        <ICON_NEED_SETTING>1</ICON_NEED_SETTING>
+        <!-- 1:右上 2：右下 3:左上 4:左下  -->
+        <ICON_location>2</ICON_location>
+        <!-- 是否需要设置langch  -->
+        <LAUNCH_NEED_SETTING>0</LAUNCH_NEED_SETTING>
+        <!-- 1:竖屏(Portrait) 2横屏左(Landscate Left) 3横屏右边(Landscape Right)  -->
+        <LAUNCH_location>1</LAUNCH_location>
+    </channel>
+    <channel chname="i4" version="2.0.3" ch_zn_name="爱思">
+        <!-- 渠道名称                          由渠道提供-->
+        <CHName>i4</CHName>
+        <!-- 渠道版本号                        由渠道提供-->
+        <CHVersion>2.0.3</CHVersion>
+        <!-- 渠道分配appid                     由渠道提供-->
+        <CHAppID>1335</CHAppID>
+        <!-- 渠道分配appKey                    由渠道提供-->
+        <CHAppKey>9c90f6fcf1304268929f930a72187330</CHAppKey>
+        <!-- 渠道 Gamekey                     由渠道提供-->
+        <CHGameKey>bb0c40dab24ead621c0ad769ca7af411</CHGameKey>
+        <!-- 渠道 GameChannel                 由渠道提供-->
+        <CHGameChannel>i4</CHGameChannel>
+        <!-- 给平台预留的私有key 比如:cukey      由渠道提供 -->
+        <CHPrivateKey></CHPrivateKey>
+        <!-- 渠道分配的区服ID                   由渠道提供-->
+        <CHServerNumber>1</CHServerNumber>
+        <!-- 渠道扩展参数ID，无特殊需求不填，如快用支付需要的game值-->
+        <CHExtendID></CHExtendID>
+        
+        <!-- 是否自动登录 1是 0否 -->
+        <CPAutoLogin>1</CPAutoLogin>
+        <!-- 是否强制更新 1是 0否 -->
+        <CPForceUpdate>1</CPForceUpdate>
+        <!-- 是显示悬浮助手 1是 0否 -->
+        <CPShowPopover>1</CPShowPopover>
+        <!-- 悬浮助手位置 0渠道默认 1中左 2中右 3左上 4左下 5左下 6右下 -->
+        <CPPopoverPosiation>3</CPPopoverPosiation>
+        <!-- 游戏支持的屏幕方向 1竖屏 2倒屏 4横屏左边 8横屏右边 如果支持多种屏请做加法比如支持竖屏和横屏左则是5(1+4) 如果支持所有方向则是15-->
+        <CPScreenOrientation>4</CPScreenOrientation>
+        <!-- 是否调试模式 1.调试模式(debug)  0.发布模式:(release)  -->
+        <DEV_ISDebugModel>0</DEV_ISDebugModel>
+        <!-- 商品信息 -->
+        <DATA_Product></DATA_Product>
+        <!-- 商户ID -->
+        <PAY_MerchantId></PAY_MerchantId>
+        <!-- 支付回调地址 -->
+        <PAY_NotifiyURL></PAY_NotifiyURL>
+        <!-- 商户私有信息 -->
+        <PAY_SellerPrivateInfo>商户私有信息</PAY_SellerPrivateInfo>
+        <!--阿里支付url type -->
+        <AlipayURLName>com.ios.zlzr.i4</AlipayURLName>
+        <AlipayScheme>As1335</AlipayScheme>
+        <!--QQ钱包url type -->
+        <qqPayURLName>AsQQPay</qqPayURLName>
+        <qqPayScheme>com.ios.zlzr.i4</qqPayScheme>
+        <!--最后出包的bundleid 不同渠道有不同要求 -->
+        <BundleID>com.ios.zlzr.i4</BundleID>
+        <!--最后出包的bundleVersion 用于配置CFBundleVersion -->
+        <BundleVersion>1.5.0</BundleVersion>
+        <!-- 最出包的名称 -->
+        <BundleDisplayName>斩龙之刃</BundleDisplayName>
+        <!--是否需要设置icon -->
+        <ICON_NEED_SETTING>1</ICON_NEED_SETTING>
+        <!-- 1:右上 2：右下 3:左上 4:左下  -->
+        <ICON_location>2</ICON_location>
+        <!-- 是否需要设置langch  -->
+        <LAUNCH_NEED_SETTING>0</LAUNCH_NEED_SETTING>
+        <!-- 1:竖屏(Portrait) 2横屏左(Landscate Left) 3横屏右边(Landscape Right)  -->
+        <LAUNCH_location>1</LAUNCH_location>
+    </channel>
+    <channel chname="07073sy" version="1.1" ch_zn_name="数游">
+        <!-- 渠道名称                          由渠道提供-->
+        <CHName>07073sy</CHName>
+        <!-- 渠道版本号                        由渠道提供-->
+        <CHVersion>1.1</CHVersion>
+        <!-- 渠道分配appid                     由渠道提供-->
+        <CHAppID>209</CHAppID>
+        <!-- 渠道分配appKey                    由渠道提供-->
+        <CHAppKey>223</CHAppKey>
+        <!-- 快发分配的 Gamekey                     由渠道提供-->
+        <CHGameKey>bb0c40dab24ead621c0ad769ca7af411</CHGameKey>
+        <!-- 渠道 GameChannel                 由渠道提供-->
+        <CHGameChannel>07073sy</CHGameChannel>
+        <!-- 给平台预留的私有key 比如:cukey      由渠道提供 -->
+        <CHPrivateKey>WWQWTL52QTGGIIT1</CHPrivateKey>
+        <!-- 渠道分配的区服ID                   由渠道提供-->
+        <CHServerNumber>3</CHServerNumber>
+        <!-- 渠道扩展参数ID，无特殊需求不填，如快用支付需要的game值-->
+        <CHExtendID></CHExtendID>
+        
+        <!-- 是否自动登录 1是 0否 -->
+        <CPAutoLogin>1</CPAutoLogin>
+        <!-- 是否强制更新 1是 0否 -->
+        <CPForceUpdate>1</CPForceUpdate>
+        <!-- 是显示悬浮助手 1是 0否 -->
+        <CPShowPopover>1</CPShowPopover>
+        <!-- 悬浮助手位置 0渠道默认 1中左 2中右 3做上 4左下 5左下 6右下 -->
+        <CPPopoverPosiation>3</CPPopoverPosiation>
+        <!-- 游戏支持的屏幕方向 1竖屏 2倒屏 4横屏左边 8横屏右边 如果支持多种屏请做加法比如支持竖屏和横屏左则是5(1+4) 如果支持所有方向则是15-->
+        <CPScreenOrientation>4</CPScreenOrientation>
+        <!-- 是否调试模式 1.调试模式(debug)  0.发布模式:(release)  -->
+        <DEV_ISDebugModel>1</DEV_ISDebugModel>
+        <!-- 商品信息 -->
+        <DATA_Product></DATA_Product>
+        <!-- 商户ID -->
+        <PAY_MerchantId></PAY_MerchantId>
+        <!-- 支付回调地址 -->
+        <PAY_NotifiyURL></PAY_NotifiyURL>
+        <!-- 商户私有信息 -->
+        <PAY_SellerPrivateInfo>商户私有信息</PAY_SellerPrivateInfo>
+        <!--阿里支付url type -->
+        <AlipayURLName>com.ios.zlzr.07073sy</AlipayURLName>
+        <AlipayScheme>ZHPAY-com.ios.zlzr.07073sy</AlipayScheme>
+        <!--QQ钱包url type -->
+        <qqPayURLName>com.ios.zlzr.07073sy</qqPayURLName>
+        <qqPayScheme>com.ios.zlzr.07073sy</qqPayScheme>
+        <!--最后出包的bundleid 不同渠道有不同要求 -->
+        <BundleID>com.ios.zlzr.07073sy</BundleID>
+        <!--最后出包的bundleVersion 用于配置CFBundleVersion -->
+        <BundleVersion>1.5.0</BundleVersion>
+        <!-- 最出包的名称 -->
+        <BundleDisplayName>斩龙之刃</BundleDisplayName>
+        <!--是否需要设置icon -->
+        <ICON_NEED_SETTING>1</ICON_NEED_SETTING>
+        <!-- 1:右上 2：右下 3:左上 4:左下  -->
+        <ICON_location>2</ICON_location>
+        <!-- 是否需要设置langch  -->
+        <LAUNCH_NEED_SETTING>1</LAUNCH_NEED_SETTING>
+        <!-- 1:竖屏(Portrait) 2横屏左(Landscate Left) 3横屏右边(Landscape Right)  -->
+        <LAUNCH_location>1</LAUNCH_location>
+    </channel>
+    <channel chname="itools" version="2.4.1" ch_zn_name="itools">
+        <!-- 渠道名称                          由渠道提供-->
+        <CHName>itools</CHName>
+        <!-- 渠道版本号                        由渠道提供-->
+        <CHVersion>2.4.1</CHVersion>
+        <!-- 渠道分配appid                     由渠道提供-->
+        <CHAppID>1414</CHAppID>
+        <!-- 渠道分配appKey                    由渠道提供-->
+        <CHAppKey>9576CEBAAFCC7846ECB62F4257FA4A05</CHAppKey>
+        <!-- 渠道 Gamekey                     由渠道提供-->
+        <CHGameKey>bb0c40dab24ead621c0ad769ca7af411</CHGameKey>
+        <!-- 渠道 GameChannel                 由渠道提供-->
+        <CHGameChannel>itools</CHGameChannel>
+        <!-- 给平台预留的私有key 比如:cukey      由渠道提供 -->
+        <CHPrivateKey></CHPrivateKey>
+        <!-- 渠道分配的区服ID                   由渠道提供-->
+        <CHServerNumber>1</CHServerNumber>
+        <!-- 渠道扩展参数ID，无特殊需求不填，如快用支付需要的game值-->
+        <CHExtendID></CHExtendID>
+        
+        <!-- 是否自动登录 1是 0否 -->
+        <CPAutoLogin>1</CPAutoLogin>
+        <!-- 是否强制更新 1是 0否 -->
+        <CPForceUpdate>1</CPForceUpdate>
+        <!-- 是显示悬浮助手 1是 0否 -->
+        <CPShowPopover>1</CPShowPopover>
+        <!-- 悬浮助手位置 0渠道默认 1中左 2中右 3做上 4左下 5左下 6右下 -->
+        <CPPopoverPosiation>3</CPPopoverPosiation>
+        <!-- 游戏支持的屏幕方向 1竖屏 2倒屏 4横屏左边 8横屏右边 如果支持多种屏请做加法比如支持竖屏和横屏左则是5(1+4) 如果支持所有方向则是15-->
+        <CPScreenOrientation>4</CPScreenOrientation>
+        <!-- 是否调试模式 1.调试模式(debug)  0.发布模式:(release)  -->
+        <DEV_ISDebugModel>0</DEV_ISDebugModel>
+        <!-- 商品信息 -->
+        <DATA_Product></DATA_Product>
+        <!-- 商户ID -->
+        <PAY_MerchantId></PAY_MerchantId>
+        <!-- 支付回调地址 -->
+        <PAY_NotifiyURL></PAY_NotifiyURL>
+        <!-- 商户私有信息 -->
+        <PAY_SellerPrivateInfo>商户私有信息</PAY_SellerPrivateInfo>
+        <!--阿里支付url type -->
+        <AlipayURLName>com.ios.zlzr.sky</AlipayURLName>
+        <AlipayScheme>com.ios.zlzr.sky</AlipayScheme>
+        <!--QQ钱包url type -->
+        <qqPayURLName>com.ios.zlzr.sky</qqPayURLName>
+        <qqPayScheme>com.ios.zlzr.sky</qqPayScheme>
+        <!--最后出包的bundleid 不同渠道有不同要求 -->
+        <BundleID>com.ios.zlzr.sky</BundleID>
+        <!--最后出包的bundleVersion 用于配置CFBundleVersion -->
+        <BundleVersion>1.5.0</BundleVersion>
+        <!-- 最出包的名称 -->
+        <BundleDisplayName>斩龙之刃</BundleDisplayName>
+        <!--是否需要设置icon -->
+        <ICON_NEED_SETTING>1</ICON_NEED_SETTING>
+        <!-- 1:右上 2：右下 3:左上 4:左下  -->
+        <ICON_location>2</ICON_location>
+        <!-- 是否需要设置langch  -->
+        <LAUNCH_NEED_SETTING>1</LAUNCH_NEED_SETTING>
+        <!-- 1:竖屏(Portrait) 2横屏左(Landscate Left) 3横屏右边(Landscape Right)  -->
+        <LAUNCH_location>1</LAUNCH_location>
+    </channel>
+    <channel chname="91" version="3.2.6.5" ch_zn_name="91助手">
+        <!-- 渠道名称                          由渠道提供-->
+        <CHName>91</CHName>
+        <!-- 渠道版本号                        由渠道提供-->
+        <CHVersion>3.2.6.5</CHVersion>
+        <!-- 渠道分配appid                     由渠道提供-->
+        <CHAppID>117207</CHAppID>
+        <!-- 渠道分配appKey                    由渠道提供-->
+        <CHAppKey>feae0277c2a87f3b7d9139be27ca8833a772b2b5c41a9f14</CHAppKey>
+        <!-- 渠道 Gamekey                     由渠道提供-->
+        <CHGameKey>bb0c40dab24ead621c0ad769ca7af411</CHGameKey>
+        <!-- 渠道 GameChannel                 由渠道提供-->
+        <CHGameChannel>91</CHGameChannel>
+        <!-- 给平台预留的私有key 比如:cukey      由渠道提供 -->
+        <CHPrivateKey></CHPrivateKey>
+        <!-- 渠道分配的区服ID                   由渠道提供-->
+        <CHServerNumber>1</CHServerNumber>
+        <!-- 渠道扩展参数ID，无特殊需求不填，如快用支付需要的game值-->
+        <CHExtendID></CHExtendID>
+        
+        <!-- 是否自动登录 1是 0否 -->
+        <CPAutoLogin>1</CPAutoLogin>
+        <!-- 是否强制更新 1是 0否 -->
+        <CPForceUpdate>1</CPForceUpdate>
+        <!-- 是显示悬浮助手 1是 0否 -->
+        <CPShowPopover>1</CPShowPopover>
+        <!-- 悬浮助手位置 0渠道默认 1中左 2中右 3左上 4左下 5左下 6右下 -->
+        <CPPopoverPosiation>3</CPPopoverPosiation>
+        <!-- 游戏支持的屏幕方向 1竖屏 2倒屏 4横屏左边 8横屏右边 如果支持多种屏请做加法比如支持竖屏和横屏左则是5(1+4) 如果支持所有方向则是15-->
+        <CPScreenOrientation>4</CPScreenOrientation>
+        <!-- 是否调试模式 1.调试模式(debug)  0.发布模式:(release)  -->
+        <DEV_ISDebugModel>0</DEV_ISDebugModel>
+        <!-- 商品信息 -->
+        <DATA_Product></DATA_Product>
+        <!-- 商户ID -->
+        <PAY_MerchantId></PAY_MerchantId>
+        <!-- 支付回调地址 -->
+        <PAY_NotifiyURL></PAY_NotifiyURL>
+        <!-- 商户私有信息 -->
+        <PAY_SellerPrivateInfo>商户私有信息</PAY_SellerPrivateInfo>
+        <!--阿里支付url type -->
+        <AlipayURLName>com.ios.zlzr.91</AlipayURLName>
+        <AlipayScheme>91-com.ios.zlzr.91</AlipayScheme>
+        <!--QQ钱包url type -->
+        <qqPayURLName>com.ios.zlzr.91</qqPayURLName>
+        <qqPayScheme>91-com.ios.zlzr.91</qqPayScheme>
+        <!--最后出包的bundleid 不同渠道有不同要求 -->
+        <BundleID>com.ios.zlzr.91</BundleID>
+        <!--最后出包的bundleVersion 用于配置CFBundleVersion -->
+        <BundleVersion>1.5.0</BundleVersion>
+        <!-- 最出包的名称 -->
+        <BundleDisplayName>斩龙之刃</BundleDisplayName>
+        <!--是否需要设置icon -->
+        <ICON_NEED_SETTING>1</ICON_NEED_SETTING>
+        <!-- 1:右上 2：右下 3:左上 4:左下  -->
+        <ICON_location>2</ICON_location>
+        <!-- 是否需要设置langch  -->
+        <LAUNCH_NEED_SETTING>0</LAUNCH_NEED_SETTING>
+        <!-- 1:竖屏(Portrait) 2横屏左(Landscate Left) 3横屏右边(Landscape Right)  -->
+        <LAUNCH_location>1</LAUNCH_location>
+    </channel>
+</channellist>

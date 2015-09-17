@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<channellist>
+    <channel ch_zn_name="kf" chname="matrix" version="1.0">
+        
+        <CHName>matrix</CHName>
+        
+        <CHVersion>1.0</CHVersion>
+        
+        <CHAppID>jdsfssjklajslkaj接口接口来即可了解 ajdlkajdlkjaslkdjalsk</CHAppID>
+        
+        <CHAppKey />
+        
+        <CHGameKey>bb0c40dab24ead621c0ad769ca7af411</CHGameKey>
+        
+        <CHGameChannel>matrix</CHGameChannel>
+        
+        <CHPrivateKey />
+        
+        <CHServerNumber>1</CHServerNumber>
+        
+        <CHExtendID />
+        
+        <CPAutoLogin>1</CPAutoLogin>
+        
+        <CPForceUpdate>1</CPForceUpdate>
+        
+        <CPShowPopover>1</CPShowPopover>
+        
+        <CPPopoverPosiation>3</CPPopoverPosiation>
+        
+        <CPScreenOrientation>4</CPScreenOrientation>
+        
+        <DEV_ISDebugModel>0</DEV_ISDebugModel>
+        
+        <DATA_Product />
+        
+        <PAY_MerchantId />
+        
+        <PAY_NotifiyURL />
+        
+        <PAY_SellerPrivateInfo>商户私有信息</PAY_SellerPrivateInfo>
+        
+        <AlipayURLName>com.ios.zlzr.matrix</AlipayURLName>
+        <AlipayScheme>LDPAY-com.ios.zlzr.matrix</AlipayScheme>
+        
+        <qqPayURLName>com.ios.zlzr.matrix</qqPayURLName>
+        <qqPayScheme>com.ios.zlzr.matrix</qqPayScheme>
+        
+        <BundleID>com.ios.zlzr.matrix</BundleID>
+        
+        <BundleVersion>1.5.0</BundleVersion>
+        
+        <BundleDisplayName>斩龙之刃</BundleDisplayName>
+        
+        <ICON_NEED_SETTING>1</ICON_NEED_SETTING>
+        
+        <ICON_location>2</ICON_location>
+        
+        <LAUNCH_NEED_SETTING>1</LAUNCH_NEED_SETTING>
+        
+        <LAUNCH_location>1</LAUNCH_location>
+    </channel>
+</channellist>
